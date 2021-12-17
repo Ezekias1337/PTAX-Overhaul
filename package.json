@@ -1,0 +1,26 @@
+{
+  "name": "ptax_overhaul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass css/sass_css/styles.scss css/vanilla_css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "node-mon": "nodemon ./js/app.js localhost 8080",
+    "start": "concurrently --kill-others \"npm run watch-css\" \"npm run node-mon\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "mongoose": "^6.1.2",
+    "sass": "^1.45.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
+}

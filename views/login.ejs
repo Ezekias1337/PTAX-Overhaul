@@ -1,0 +1,49 @@
+<%- include("./partials/head.ejs") %>
+
+<html>
+  <body id="body" class="login-body" style="height: 800px;">
+    <div class="container" style="height: 100%">
+      <div class="row" style="height: 100%;">
+        <div class="col-3"></div>
+        <div class="col-6 d-flex justify-content-center align-items-center login-form-wrapper">
+          <form class="login-form">
+            <img class="login-logo d-flex justify-content-center align-items-center mx-auto" src="/logo_1.png" />
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="remember-password-checkbox"
+              />
+              <label class="form-check-label" for="remember-password-checkbox"
+                >Remember password</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary login-button">Submit</button>
+          </form>
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+  </body>
+</html>
