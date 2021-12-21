@@ -1,10 +1,17 @@
-/* 
-    When hovered apply .8 opacity,
-    font family: Roboto & GoogleSansText
-*/
+body {
+  font-family: 'Red Hat Mono', monospace; }
+
 .login-body {
   background-image: url("/Gradient-Outline.jpg");
   overflow-y: hidden; }
+
+.forgot-password {
+  color: white;
+  text-decoration: none !important; }
+
+.forgot-password:hover, .forgot-password:active, .forgot-password:focus {
+  color: #cccccc;
+  text-decoration: none !important; }
 
 .login-form {
   border: 2px solid white;
@@ -40,7 +47,9 @@
   opacity: 0%; }
 
 .login-form input {
-  background-color: rgba(0, 0, 0, 0.363);
+  background-color: rgba(0, 0, 0, 0.363); }
+
+.login-form input, .forgot-password {
   opacity: 0%;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
