@@ -1,0 +1,113 @@
+#navbar {
+  background-image: url("/Gradient-Outline.jpg");
+  background-position-y: top;
+  background-position-x: right;
+}
+
+form.navbarForm input {
+  width: 20%;
+}
+
+form.navbarForm label {
+  font-size: smaller;
+}
+
+form.navbarForm {
+  height: 50%;
+}
+
+#navbarNavDropdown button.btn {
+  padding-bottom: 30px !important;
+}
+
+#navbarNavDropdown button.btn,
+#navbarNavDropdown input {
+  min-height: 30px !important;
+  border: 1px solid white;
+  background-color: $transparent-black-1;
+  /* opacity: 0%; */
+}
+#navbarNavDropdown button.btn:hover,
+#navbarNavDropdown button.btn:focus,
+#navbarNavDropdown button.btn:active,
+#navbarNavDropdown input:active,
+#navbarNavDropdown input:focus,
+#navbarNavDropdown input:hover {
+  background-color: lighten($color: $transparent-black-1, $amount: 20) !important;
+  color: white;
+  box-shadow: 0 0 0 0.25rem $transparent-white;
+}
+
+#left-button,
+#right-button,
+#print-button {
+  max-height: 30px !important;
+}
+
+#navbarNavDropdown input {
+  color: white;
+}
+
+a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
+  background-color: $transparent-white;
+  border-radius: 5px;
+}
+
+a.dropdown-toggle:focus-visible {
+  outline: none;
+}
+
+ul.dropdown-menu {
+  background-color: $transparent-black-1 !important;
+}
+
+a.dropdown-item {
+  color: white !important;
+}
+
+a.dropdown-item:hover, a.dropdown-item:focus, a.dropdown-item:active {
+  color: black !important;
+  background-color: $transparent-white;
+}
+
+::-webkit-input-placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+::-moz-placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+:-ms-input-placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+::-ms-input-placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+::placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid white;
+  -webkit-text-fill-color: white;
+  box-shadow: 0 0 0px 1000px $transparent-black-2 inset;
+  -webkit-box-shadow: 0 0 0px 1000px $transparent-black-2 inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}

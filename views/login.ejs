@@ -1,33 +1,91 @@
 <%- include("./partials/head.ejs") %>
 
 <html>
-  <body id="body" class="login-body" style="height: 800px;">
-    <div class="container" style="height: 100%">
-      <div class="row" style="height: 100%;">
-        <div class="col-3"></div>
-        <div class="col-6 d-flex justify-content-center align-items-center login-form-wrapper">
-          <form class="login-form">
-            <img class="login-logo d-flex justify-content-center align-items-center mx-auto" src="/logo_1.png" />
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
+  <body id="body" class="login-body" style="height: 800px">
+    <!-- Reset password modal -->
+    <div
+      class="modal fade"
+      id="resetPasswordModal"
+      tabindex="-1"
+      aria-labelledby="resetPasswordModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resetPasswordModalLabel">
+              Retrieve Password
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <span class="mb-5"
+              >Please enter your email address you have registered with PTAX.
+              Your password will be sent to this email address if it exists in
+              our system.</span
+            >
+            <form class="reset-password-form mt-3">
+              <label for="inputEmail" class="form-label">Email</label>
               <input
                 type="email"
                 class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
+                id="inputEmail"
+                aria-describedby="inputEmail"
+                placeholder="example@ptaxresources.com"
+              />
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary submit-modal-button">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Form -->
+    <div class="container" style="height: 100%">
+      <div class="row" style="height: 100%">
+        <div class="col-3"></div>
+        <div
+          class="
+            col-6
+            d-flex
+            justify-content-center
+            align-items-center
+            login-form-wrapper
+          "
+        >
+          <form class="login-form">
+            <img
+              class="
+                login-logo
+                d-flex
+                justify-content-center
+                align-items-center
+                mx-auto
+              "
+              src="/logo_1.png"
+            />
+            <div class="mb-3">
+              <label for="inputUsername" class="form-label">Username</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputUsername"
+                aria-describedby="inputUsername"
               />
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label"
-                >Password</label
-              >
-              <input
-                type="password"
-                class="form-control"
-                id="exampleInputPassword1"
-              />
+              <label for="inputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword" />
             </div>
             <div class="mb-3 form-check">
               <input
@@ -39,9 +97,17 @@
                 >Remember password</label
               >
             </div>
-            <button type="submit" class="mb-3 btn btn-primary login-button">Submit</button>
+            <button type="submit" class="mb-3 btn btn-primary login-button">
+              Submit
+            </button>
             <div>
-              <a href="#" class="forgot-password">Forgot your password?</a>
+              <a
+                href="#"
+                class="forgot-password"
+                data-bs-toggle="modal"
+                data-bs-target="#resetPasswordModal"
+                >Forgot your password?</a
+              >
             </div>
           </form>
         </div>

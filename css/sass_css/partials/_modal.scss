@@ -1,0 +1,93 @@
+div.modal-content {
+  background-color: $transparent-black-1;
+  color: white;
+}
+
+div.modal-header {
+  background-image: url("/Gradient-Outline.jpg");
+  background-position-x: center;
+}
+
+div.modal-body {
+  border-bottom: none !important;
+}
+
+div.modal-footer {
+  border-top: none !important;
+}
+
+.reset-password-form input {
+  background-color: $transparent-black-1;
+  color: white;
+}
+
+.reset-password-form input:hover,
+.reset-password-form input:focus,
+.reset-password-form input:active {
+  background-color: $transparent-black-2;
+  color: white;
+}
+
+.submit-modal-button {
+  background-color: $transparent-black-1;
+}
+
+.submit-modal-button,
+div.modal-content,
+div.modal-header {
+  border: 1px solid white !important;
+}
+
+.submit-modal-button:hover,
+.submit-modal-button:focus,
+.submit-modal-button:active {
+  background-color: $transparent-black-2;
+  border: 1px solid white;
+  color: white;
+}
+
+button.btn-close {
+  filter: invert(1);
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid white;
+  -webkit-text-fill-color: white;
+  box-shadow: 0 0 0px 1000px $transparent-black-2 inset;
+  -webkit-box-shadow: 0 0 0px 1000px $transparent-black-2 inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
