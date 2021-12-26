@@ -21,6 +21,7 @@
     "sass": "^1.45.0"
   },
   "devDependencies": {
+    "concurrently": "^6.5.1",
     "node-sass": "^7.0.0"
   }
 }
