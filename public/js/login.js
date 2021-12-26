@@ -125,8 +125,8 @@ const causeLogInToAnimate = () => {
   } else if (
     loginBackGround.dataset.animationName === "animate-to-bottom-right"
   ) {
-    loginBackGround.dataset.animationName = "animate-to-top-center";
-    window.setTimeout(setTopCenter, 4999);
+    loginBackGround.dataset.animationName = "animate-to-top-left";
+    window.setTimeout(setTopLeft, 4999);
   } else {
     if (numberToDetermineBGPlacement <= 8) {
       loginBackGround.dataset.animationName = "animate-to-top-left";

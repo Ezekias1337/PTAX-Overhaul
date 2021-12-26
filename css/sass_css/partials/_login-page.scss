@@ -79,6 +79,7 @@
   .login-form input:active {
     background-color: $transparent-black-2;
     color: white;
+    box-shadow: 0 0 0 0.25rem $transparent-white-1;
   }
   
   .login-button {

@@ -129,8 +129,8 @@ const causeNavbarToAnimate = () => {
     } else if (
       navbar.dataset.animationName === "animate-to-bottom-right"
     ) {
-      navbar.dataset.animationName = "animate-to-top-center";
-      window.setTimeout(setTopCenter, 4999);
+      navbar.dataset.animationName = "animate-to-top-left";
+      window.setTimeout(setTopLeft, 4999);
     } else {
       if (numberToDetermineBGPlacement <= 8) {
         navbar.dataset.animationName = "animate-to-top-left";
@@ -192,3 +192,5 @@ for (const item of arrayOfNavbarDropdownElements) {
     }
   });
 }
+
+// Now need to handle nested dropdowns
