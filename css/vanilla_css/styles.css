@@ -201,9 +201,7 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s; }
 
 #navbar {
-  background-image: url("/Gradient-Outline.jpg");
-  background-position-y: top;
-  background-position-x: right; }
+  background-image: url("/Gradient-Outline.jpg"); }
 
 form.navbarForm input {
   width: 20%; }
@@ -221,8 +219,7 @@ form.navbarForm {
 #navbarNavDropdown input {
   min-height: 30px !important;
   border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.363);
-  /* opacity: 0%; */ }
+  background-color: rgba(0, 0, 0, 0.363); }
 
 #navbarNavDropdown button.btn:hover,
 #navbarNavDropdown button.btn:focus,
@@ -250,14 +247,17 @@ a.dropdown-toggle:focus-visible {
   outline: none; }
 
 ul.dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.363) !important; }
+  background-color: rgba(0, 0, 0, 0.7) !important; }
+
+ul.dropdown-menu:hover li a:hover {
+  background-color: rgba(255, 255, 255, 0.85) !important; }
 
 a.dropdown-item {
   color: white !important; }
 
 a.dropdown-item:hover, a.dropdown-item:focus, a.dropdown-item:active {
   color: black !important;
-  background-color: rgba(255, 255, 255, 0.39); }
+  background-color: rgba(255, 255, 255, 0.39) !important; }
 
 ::-webkit-input-placeholder {
   color: white !important;
@@ -294,6 +294,143 @@ select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0.075) inset;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s; }
+
+[data-animation-name="animate-to-top-left"] {
+  animation-name: animate-to-top-left;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-top-left {
+  from { }
+  to {
+    background-position-x: left;
+    background-position-y: top; } }
+
+[data-animation-name="animate-to-top-center"] {
+  animation-name: animate-to-top-center;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-top-center {
+  from { }
+  to {
+    background-position-x: center;
+    background-position-y: top; } }
+
+[data-animation-name="animate-to-top-right"] {
+  animation-name: animate-to-top-right;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-top-right {
+  from { }
+  to {
+    background-position-x: right;
+    background-position-y: top; } }
+
+__________________________________________________________________________________
+[data-animation-name="animate-to-center-left"] {
+  animation-name: animate-to-center-left;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-center-left {
+  from { }
+  to {
+    background-position-x: left;
+    background-position-y: center; } }
+
+[data-animation-name="animate-to-center-center"] {
+  animation-name: animate-to-center-center;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-center-center {
+  from { }
+  to {
+    background-position-x: center;
+    background-position-y: center; } }
+
+[data-animation-name="animate-to-center-right"] {
+  animation-name: animate-to-center-right;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-center-right {
+  from { }
+  to {
+    background-position-x: right;
+    background-position-y: center; } }
+
+__________________________________________________________________________________
+[data-animation-name="animate-to-bottom-left"] {
+  animation-name: animate-to-bottom-left;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-bottom-left {
+  from { }
+  to {
+    background-position-x: left;
+    background-position-y: bottom; } }
+
+[data-animation-name="animate-to-bottom-center"] {
+  animation-name: animate-to-bottom-center;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-bottom-center {
+  from { }
+  to {
+    background-position-x: center;
+    background-position-y: bottom; } }
+
+[data-animation-name="animate-to-bottom-right"] {
+  animation-name: animate-to-bottom-right;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards; }
+
+@keyframes animate-to-bottom-right {
+  from { }
+  to {
+    background-position-x: right;
+    background-position-y: bottom; } }
 
 body {
   font-family: 'Red Hat Mono', monospace; }

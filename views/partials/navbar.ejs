@@ -23,9 +23,9 @@
                 File
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Change Password</a></li>
+                <li><a class="dropdown-item" href="#">Clear Remember Me</a></li>
+                <li><a class="dropdown-item" href="#">Log out</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -33,9 +33,15 @@
                 Edit
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">New Company</a></li>
+                <li><a class="dropdown-item" href="#">New Location</a></li>
+                <li><a class="dropdown-item" href="#">New Parcel</a></li>
+                <li><a class="dropdown-item" href="#">Delete Company</a></li>
+                <li><a class="dropdown-item" href="#">Delete Location</a></li>
+                <li><a class="dropdown-item" href="#">Delete Parcel</a></li>
+                <li><a class="dropdown-item" href="#">Inactivate/Activate Company, Location, or Parcel</a></li>
+                <li><a class="dropdown-item" href="#">Move/Copy Location or Parcel Chain</a></li>
+                <li><a class="dropdown-item" href="#">Automated Upload</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -43,9 +49,11 @@
                 View
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Properties</a></li>
+                <li><a class="dropdown-item" href="#">Tax Assessors</a></li>
+                <li><a class="dropdown-item" href="#">Tax Collectors</a></li>
+                <li><a class="dropdown-item" href="#">Users</a></li>
+                <li><a class="dropdown-item" href="#">Tax Collector Payment Editor</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -53,9 +61,9 @@
                 Documents
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">New Scanned Document</a></li>
+                <li><a class="dropdown-item" href="#">Search Document</a></li>
+                <li><a class="dropdown-item" href="#">Document Tracking Verification</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -63,9 +71,9 @@
                 Appeal
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Agent Authorization Report</a></li>
+                <li><a class="dropdown-item" href="#">Appeal Aplication</a></li>
+                <li><a class="dropdown-item" href="#">Appeal Module</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -73,19 +81,296 @@
                 Payments
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Make Payments</a></li>
+                <li><a class="dropdown-item" href="#">Approved Payment Export</a></li>
+                <li><a class="dropdown-item" href="#">Transmittal Creator</a></li>
+                <li><a class="dropdown-item" href="#">Check Request Creator</a></li>
+                <li><a class="dropdown-item" href="#">Push Transmittal Emails Now</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Reports
               </a>
+              <!-- Need a dropdown menu that goes to the side for Reports -->
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">PTax Report Generator →</a></li>
+                <li><a class="dropdown-item" href="#">PTR Internal User Reports →</a></li>
+                <li><a class="dropdown-item" href="#">Audit Reports →</a></li>
+                <li><a class="dropdown-item" href="#">PTaxSolution Reports →</a></li>
+              </ul>
+              <ul class="dropdown-menu nested-dropdown" id="reportGenerator">
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    PTAX Report Generator
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Report Generator - Location Payments by Parcel
+                  </a>
+                </li>
+              </ul>
+              <ul class="dropdown-menu nested-dropdown" id="internalUserReports">
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Appeal Application Tracking
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Appeal Calendar
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Assessment Change > 2%
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Attachment A for EL
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Budget Module
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Direct Tax Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Document Tracker Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Exemptions Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    General Appeal and Payment Deadlines Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Hearing Calendar
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Manager List and Email Notifications
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    New Locations Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Personal Property Parcels
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Refunds Reports →
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Tax Savings Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Texas Litigation Tax Savings Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Transmittal E-mail Alert Setup Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Value Reductions
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Brookfield Payment Status
+                  </a>
+                </li>
+              </ul>
+              <ul class="dropdown-menu nested-dropdown" id="auditReports">
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Appeals →
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Assessor Differences →
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Assessor Information
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Collectors without pmt setup
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Location Level Data Audit
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Missing Data →
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    MVE = Sum(Parts)
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    MVE=AV (CA)
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Parcel name audit
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Parcels 2 Years Data
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    PTaxSolution Verification of Set Up Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Scanned Doc Email Verification
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Tax Liability = Sum(Parts)
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Users with Multi Company Access Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Prop 13 Values vs MVE
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    User E-mail Alerts Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Parcel Collector Configuration
+                  </a>
+                </li>
+              </ul>
+              <ul class="dropdown-menu nested-dropdown" id="pTaxSolutionReports">
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Annual Calendar Year Tax Report for Company
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Appeal Approval Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Appeal Status Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Approximate Location Appeal Deadlines
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Approximate Parcel Appeal Deadlines
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Assessments and Payment Due Months
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Bill Payment/Approval Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Bill Payment Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Control Sheet
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Expected Liabilities
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Expected Liabilities with Forecast
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Payment and Appeal Approver Report
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Tax Payment Confirmation
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    UnPivoted Tax Data
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item nested-dropdown-item" href="#">
+                    Personal Property Return Deadlines
+                  </a>
+                </li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -93,9 +378,10 @@
                 Links
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">LoopNet</a></li>
+                <li><a class="dropdown-item" href="#">NAREIT</a></li>
+                <li><a class="dropdown-item" href="#">Institute for Professionals in Taxation</a></li>
+                <li><a class="dropdown-item" href="#">International Association of Assessing Officers</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -103,9 +389,10 @@
                 Help
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">User Manual</a></li>
+                <li><a class="dropdown-item" href="#">Report Manual</a></li>
+                <li><a class="dropdown-item" href="#">Training Videos</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
               </ul>
             </li>
             <button class="btn btn-primary mx-1 mb-2" id="left-button"><<</button>
@@ -161,4 +448,4 @@
   </div>
 </nav>
 
-<script src="/js/navBar.js"></script>
+<script src="/js/navBar.js" defer></script>

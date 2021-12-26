@@ -1,0 +1,172 @@
+[data-animation-name="animate-to-top-left"] {
+  animation-name: animate-to-top-left;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-top-left {
+  from {
+  }
+  to {
+    background-position-x: left;
+    background-position-y: top;
+  }
+}
+
+[data-animation-name="animate-to-top-center"] {
+  animation-name: animate-to-top-center;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-top-center {
+  from {
+  }
+  to {
+    background-position-x: center;
+    background-position-y: top;
+  }
+}
+
+[data-animation-name="animate-to-top-right"] {
+  animation-name: animate-to-top-right;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-top-right {
+  from {
+  }
+  to {
+    background-position-x: right;
+    background-position-y: top;
+  }
+}
+
+__________________________________________________________________________________
+[data-animation-name="animate-to-center-left"] {
+  animation-name: animate-to-center-left;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-center-left {
+  from {
+  }
+  to {
+    background-position-x: left;
+    background-position-y: center;
+  }
+}
+
+[data-animation-name="animate-to-center-center"] {
+  animation-name: animate-to-center-center;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-center-center {
+  from {
+  }
+  to {
+    background-position-x: center;
+    background-position-y: center;
+  }
+}
+
+[data-animation-name="animate-to-center-right"] {
+  animation-name: animate-to-center-right;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-center-right {
+  from {
+  }
+  to {
+    background-position-x: right;
+    background-position-y: center;
+  }
+}
+
+__________________________________________________________________________________
+[data-animation-name="animate-to-bottom-left"] {
+  animation-name: animate-to-bottom-left;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-bottom-left {
+  from {
+  }
+  to {
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+}
+
+[data-animation-name="animate-to-bottom-center"] {
+  animation-name: animate-to-bottom-center;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-bottom-center {
+  from {
+  }
+  to {
+    background-position-x: center;
+    background-position-y: bottom;
+  }
+}
+
+[data-animation-name="animate-to-bottom-right"] {
+  animation-name: animate-to-bottom-right;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  -webkit-animation-direction: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes animate-to-bottom-right {
+  from {
+  }
+  to {
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+}

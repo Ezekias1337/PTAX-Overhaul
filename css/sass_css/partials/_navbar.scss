@@ -1,7 +1,5 @@
 #navbar {
   background-image: url("/Gradient-Outline.jpg");
-  background-position-y: top;
-  background-position-x: right;
 }
 
 form.navbarForm input {
@@ -25,7 +23,6 @@ form.navbarForm {
   min-height: 30px !important;
   border: 1px solid white;
   background-color: $transparent-black-1;
-  /* opacity: 0%; */
 }
 #navbarNavDropdown button.btn:hover,
 #navbarNavDropdown button.btn:focus,
@@ -35,7 +32,7 @@ form.navbarForm {
 #navbarNavDropdown input:hover {
   background-color: lighten($color: $transparent-black-1, $amount: 20) !important;
   color: white;
-  box-shadow: 0 0 0 0.25rem $transparent-white;
+  box-shadow: 0 0 0 0.25rem $transparent-white-1;
 }
 
 #left-button,
@@ -49,7 +46,7 @@ form.navbarForm {
 }
 
 a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
-  background-color: $transparent-white;
+  background-color: $transparent-white-1;
   border-radius: 5px;
 }
 
@@ -58,7 +55,11 @@ a.dropdown-toggle:focus-visible {
 }
 
 ul.dropdown-menu {
-  background-color: $transparent-black-1 !important;
+  background-color: $transparent-black-3 !important;
+}
+
+ul.dropdown-menu:hover li a:hover {
+  background-color: $transparent-white-2 !important;
 }
 
 a.dropdown-item {
@@ -67,7 +68,7 @@ a.dropdown-item {
 
 a.dropdown-item:hover, a.dropdown-item:focus, a.dropdown-item:active {
   color: black !important;
-  background-color: $transparent-white;
+  background-color: $transparent-white-1 !important;
 }
 
 ::-webkit-input-placeholder {
