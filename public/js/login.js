@@ -4,56 +4,56 @@ const getRandomArbitrary = (min, max) => {
 
 const setTopLeft = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "left";
-  loginBackGround.style.backgroundPositionY = "top";
+  loginBackGround.style.backgroundPositionX = "0%";
+  loginBackGround.style.backgroundPositionY = "0%";
 };
 
 const setTopCenter = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "center";
-  loginBackGround.style.backgroundPositionY = "top";
+  loginBackGround.style.backgroundPositionX = "50%";
+  loginBackGround.style.backgroundPositionY = "0%";
 };
 
 const setTopRight = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "right";
-  loginBackGround.style.backgroundPositionY = "top";
+  loginBackGround.style.backgroundPositionX = "100%";
+  loginBackGround.style.backgroundPositionY = "0%";
 };
 
 const setCenterLeft = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "left";
-  loginBackGround.style.backgroundPositionY = "center";
+  loginBackGround.style.backgroundPositionX = "0%";
+  loginBackGround.style.backgroundPositionY = "50%";
 };
 
 const setCenterCenter = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "center";
-  loginBackGround.style.backgroundPositionY = "center";
+  loginBackGround.style.backgroundPositionX = "50%";
+  loginBackGround.style.backgroundPositionY = "50%";
 };
 
 const setCenterRight = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "right";
-  loginBackGround.style.backgroundPositionY = "center";
+  loginBackGround.style.backgroundPositionX = "100%";
+  loginBackGround.style.backgroundPositionY = "50%";
 };
 
 const setBottomLeft = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "left";
-  loginBackGround.style.backgroundPositionY = "bottom";
+  loginBackGround.style.backgroundPositionX = "0%";
+  loginBackGround.style.backgroundPositionY = "100%";
 };
 
 const setBottomCenter = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "center";
-  loginBackGround.style.backgroundPositionY = "bottom";
+  loginBackGround.style.backgroundPositionX = "50%";
+  loginBackGround.style.backgroundPositionY = "100%";
 };
 
 const setBottomRight = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
-  loginBackGround.style.backgroundPositionX = "right";
-  loginBackGround.style.backgroundPositionY = "bottom";
+  loginBackGround.style.backgroundPositionX = "100%";
+  loginBackGround.style.backgroundPositionY = "100%";
 };
 
 const generateLogInBackgroundRandom = () => {

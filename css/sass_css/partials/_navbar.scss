@@ -45,6 +45,11 @@ form.navbarForm {
   color: white;
 }
 
+a.nav-link, label.form-label {
+  font-weight: bold !important;
+  color: black;
+}
+
 a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
   background-color: $transparent-white-1;
   border-radius: 5px;
@@ -70,6 +75,20 @@ a.dropdown-item:hover, a.dropdown-item:focus, a.dropdown-item:active {
   color: black !important;
   background-color: $transparent-white-1 !important;
 }
+
+li.nav-item ul.dropdown-menu {
+  position: relative;
+}
+
+#reportGenerator {
+  background-color: $transparent-black-3;
+  color: white;
+  padding-left: 0px !important;
+  position: absolute;
+  top: 120%;
+  left: -450%;
+}
+
 
 ::-webkit-input-placeholder {
   color: white !important;

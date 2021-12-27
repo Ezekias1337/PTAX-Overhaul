@@ -194,3 +194,13 @@ for (const item of arrayOfNavbarDropdownElements) {
 }
 
 // Now need to handle nested dropdowns
+
+const handlePTaxReportGeneratorMouseEnter = (() => {
+  const arrayOfULChildren = document.getElementById("reportGenerator").children;
+  console.log(arrayOfULChildren)
+  for (const item of arrayOfULChildren) {
+    item.style.display = "";
+  }
+})
+
+document.getElementById("reportGeneratorTrigger").addEventListener("mouseenter", handlePTaxReportGeneratorMouseEnter)

@@ -1,12 +1,13 @@
 .login-body {
-  background-image: url("/Gradient-Outline.jpg");
-  overflow-y: hidden; }
+  background-image: url("/Gradient-Outline.jpg"); }
 
 .forgot-password {
   color: white;
   text-decoration: none !important; }
 
-.forgot-password:hover, .forgot-password:active, .forgot-password:focus {
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus {
   color: #cccccc;
   text-decoration: none !important; }
 
@@ -46,7 +47,8 @@
 .login-form input {
   background-color: rgba(0, 0, 0, 0.363); }
 
-.login-form input, .forgot-password {
+.login-form input,
+.forgot-password {
   opacity: 0%;
   -webkit-animation-delay: 3s;
   animation-delay: 3s;
@@ -97,7 +99,9 @@
   background-color: rgba(0, 0, 0, 0.363) !important;
   border-color: white; }
 
-#remember-password-checkbox:active, #remember-password-checkbox:focus, #remember-password-checkbox:hover {
+#remember-password-checkbox:active,
+#remember-password-checkbox:focus,
+#remember-password-checkbox:hover {
   background-color: rgba(0, 0, 0, 0.075) !important; }
 
 .login-button:hover,
@@ -240,6 +244,10 @@ form.navbarForm {
 #navbarNavDropdown input {
   color: white; }
 
+a.nav-link, label.form-label {
+  font-weight: bold !important;
+  color: black; }
+
 a.nav-link:hover, a.nav-link:focus, a.nav-link:active {
   background-color: rgba(255, 255, 255, 0.39);
   border-radius: 5px; }
@@ -259,6 +267,17 @@ a.dropdown-item {
 a.dropdown-item:hover, a.dropdown-item:focus, a.dropdown-item:active {
   color: black !important;
   background-color: rgba(255, 255, 255, 0.39) !important; }
+
+li.nav-item ul.dropdown-menu {
+  position: relative; }
+
+#reportGenerator {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding-left: 0px !important;
+  position: absolute;
+  top: 120%;
+  left: -450%; }
 
 ::-webkit-input-placeholder {
   color: white !important;
@@ -297,141 +316,256 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s; }
 
 [data-animation-name="animate-to-top-left"] {
+  -webkit-animation-name: animate-to-top-left;
   animation-name: animate-to-top-left;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-top-left {
+  from {
+    background-position-x: 100%;
+    background-position-y: 100%; }
+  to {
+    background-position-x: 0%;
+    background-position-y: 0%; } }
 
 @keyframes animate-to-top-left {
-  from { }
+  from {
+    background-position-x: 100%;
+    background-position-y: 100%; }
   to {
-    background-position-x: left;
-    background-position-y: top; } }
+    background-position-x: 0%;
+    background-position-y: 0%; } }
 
 [data-animation-name="animate-to-top-center"] {
+  -webkit-animation-name: animate-to-top-center;
   animation-name: animate-to-top-center;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-top-center {
+  from {
+    background-position-x: 50%;
+    background-position-y: 50%; }
+  to {
+    background-position-x: 50%;
+    background-position-y: 0%; } }
 
 @keyframes animate-to-top-center {
-  from { }
+  from {
+    background-position-x: 50%;
+    background-position-y: 50%; }
   to {
-    background-position-x: center;
-    background-position-y: top; } }
+    background-position-x: 50%;
+    background-position-y: 0%; } }
 
 [data-animation-name="animate-to-top-right"] {
+  -webkit-animation-name: animate-to-top-right;
   animation-name: animate-to-top-right;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-top-right {
+  from {
+    background-position-x: 50%;
+    background-position-y: 0%; }
+  to {
+    background-position-x: 100%;
+    background-position-y: 0%; } }
 
 @keyframes animate-to-top-right {
-  from { }
+  from {
+    background-position-x: 50%;
+    background-position-y: 0%; }
   to {
-    background-position-x: right;
-    background-position-y: top; } }
+    background-position-x: 100%;
+    background-position-y: 0%; } }
 
-__________________________________________________________________________________
 [data-animation-name="animate-to-center-left"] {
+  -webkit-animation-name: animate-to-center-left;
   animation-name: animate-to-center-left;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-center-left {
+  from {
+    background-position-x: 0%;
+    background-position-y: 0%; }
+  to {
+    background-position-x: 0%;
+    background-position-y: 50%; } }
 
 @keyframes animate-to-center-left {
-  from { }
+  from {
+    background-position-x: 0%;
+    background-position-y: 0%; }
   to {
-    background-position-x: left;
-    background-position-y: center; } }
+    background-position-x: 0%;
+    background-position-y: 50%; } }
 
 [data-animation-name="animate-to-center-center"] {
+  -webkit-animation-name: animate-to-center-center;
   animation-name: animate-to-center-center;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-center-center {
+  from {
+    background-position-x: 50%;
+    background-position-y: 100%; }
+  to {
+    background-position-x: 50%;
+    background-position-y: 50%; } }
 
 @keyframes animate-to-center-center {
-  from { }
+  from {
+    background-position-x: 50%;
+    background-position-y: 100%; }
   to {
-    background-position-x: center;
-    background-position-y: center; } }
+    background-position-x: 50%;
+    background-position-y: 50%; } }
 
 [data-animation-name="animate-to-center-right"] {
+  -webkit-animation-name: animate-to-center-right;
   animation-name: animate-to-center-right;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-center-right {
+  from {
+    background-position-x: 100%;
+    background-position-y: 0%; }
+  to {
+    background-position-x: 100%;
+    background-position-y: 50%; } }
 
 @keyframes animate-to-center-right {
-  from { }
+  from {
+    background-position-x: 100%;
+    background-position-y: 0%; }
   to {
-    background-position-x: right;
-    background-position-y: center; } }
+    background-position-x: 100%;
+    background-position-y: 50%; } }
 
-__________________________________________________________________________________
 [data-animation-name="animate-to-bottom-left"] {
+  -webkit-animation-name: animate-to-bottom-left;
   animation-name: animate-to-bottom-left;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-bottom-left {
+  from {
+    background-position-x: 0%;
+    background-position-y: 50%; }
+  to {
+    background-position-x: 0%;
+    background-position-y: 100%; } }
 
 @keyframes animate-to-bottom-left {
-  from { }
+  from {
+    background-position-x: 0%;
+    background-position-y: 50%; }
   to {
-    background-position-x: left;
-    background-position-y: bottom; } }
+    background-position-x: 0%;
+    background-position-y: 100%; } }
 
 [data-animation-name="animate-to-bottom-center"] {
+  -webkit-animation-name: animate-to-bottom-center;
   animation-name: animate-to-bottom-center;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
+
+@-webkit-keyframes animate-to-bottom-center {
+  from {
+    background-position-x: 0%;
+    background-position-y: 100%; }
+  to {
+    background-position-x: 50%;
+    background-position-y: 100%; } }
 
 @keyframes animate-to-bottom-center {
-  from { }
+  from {
+    background-position-x: 0%;
+    background-position-y: 100%; }
   to {
-    background-position-x: center;
-    background-position-y: bottom; } }
+    background-position-x: 50%;
+    background-position-y: 100%; } }
 
 [data-animation-name="animate-to-bottom-right"] {
+  -webkit-animation-name: animate-to-bottom-right;
   animation-name: animate-to-bottom-right;
+  -webkit-animation-duration: 5s;
   animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards; }
 
-@keyframes animate-to-bottom-right {
-  from { }
+@-webkit-keyframes animate-to-bottom-right {
+  from {
+    background-position-x: 100%;
+    background-position-y: 50%; }
   to {
-    background-position-x: right;
-    background-position-y: bottom; } }
+    background-position-x: 100%;
+    background-position-y: 100%; } }
+
+@keyframes animate-to-bottom-right {
+  from {
+    background-position-x: 100%;
+    background-position-y: 50%; }
+  to {
+    background-position-x: 100%;
+    background-position-y: 100%; } }
 
 body {
   font-family: 'Red Hat Mono', monospace; }
