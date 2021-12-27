@@ -328,17 +328,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-top-left {
-  from {
-    background-position-x: 100%;
-    background-position-y: 100%; }
+  from { }
   to {
     background-position-x: 0%;
     background-position-y: 0%; } }
 
 @keyframes animate-to-top-left {
-  from {
-    background-position-x: 100%;
-    background-position-y: 100%; }
+  from { }
   to {
     background-position-x: 0%;
     background-position-y: 0%; } }
@@ -356,17 +352,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-top-center {
-  from {
-    background-position-x: 50%;
-    background-position-y: 50%; }
+  from { }
   to {
     background-position-x: 50%;
     background-position-y: 0%; } }
 
 @keyframes animate-to-top-center {
-  from {
-    background-position-x: 50%;
-    background-position-y: 50%; }
+  from { }
   to {
     background-position-x: 50%;
     background-position-y: 0%; } }
@@ -384,17 +376,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-top-right {
-  from {
-    background-position-x: 50%;
-    background-position-y: 0%; }
+  from { }
   to {
     background-position-x: 100%;
     background-position-y: 0%; } }
 
 @keyframes animate-to-top-right {
-  from {
-    background-position-x: 50%;
-    background-position-y: 0%; }
+  from { }
   to {
     background-position-x: 100%;
     background-position-y: 0%; } }
@@ -412,17 +400,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-center-left {
-  from {
-    background-position-x: 0%;
-    background-position-y: 0%; }
+  from { }
   to {
     background-position-x: 0%;
     background-position-y: 50%; } }
 
 @keyframes animate-to-center-left {
-  from {
-    background-position-x: 0%;
-    background-position-y: 0%; }
+  from { }
   to {
     background-position-x: 0%;
     background-position-y: 50%; } }
@@ -440,17 +424,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-center-center {
-  from {
-    background-position-x: 50%;
-    background-position-y: 100%; }
+  from { }
   to {
     background-position-x: 50%;
     background-position-y: 50%; } }
 
 @keyframes animate-to-center-center {
-  from {
-    background-position-x: 50%;
-    background-position-y: 100%; }
+  from { }
   to {
     background-position-x: 50%;
     background-position-y: 50%; } }
@@ -468,17 +448,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-center-right {
-  from {
-    background-position-x: 100%;
-    background-position-y: 0%; }
+  from { }
   to {
     background-position-x: 100%;
     background-position-y: 50%; } }
 
 @keyframes animate-to-center-right {
-  from {
-    background-position-x: 100%;
-    background-position-y: 0%; }
+  from { }
   to {
     background-position-x: 100%;
     background-position-y: 50%; } }
@@ -496,17 +472,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-bottom-left {
-  from {
-    background-position-x: 0%;
-    background-position-y: 50%; }
+  from { }
   to {
     background-position-x: 0%;
     background-position-y: 100%; } }
 
 @keyframes animate-to-bottom-left {
-  from {
-    background-position-x: 0%;
-    background-position-y: 50%; }
+  from { }
   to {
     background-position-x: 0%;
     background-position-y: 100%; } }
@@ -524,17 +496,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-bottom-center {
-  from {
-    background-position-x: 0%;
-    background-position-y: 100%; }
+  from { }
   to {
     background-position-x: 50%;
     background-position-y: 100%; } }
 
 @keyframes animate-to-bottom-center {
-  from {
-    background-position-x: 0%;
-    background-position-y: 100%; }
+  from { }
   to {
     background-position-x: 50%;
     background-position-y: 100%; } }
@@ -552,17 +520,13 @@ select:-webkit-autofill:focus {
   -webkit-animation-fill-mode: forwards; }
 
 @-webkit-keyframes animate-to-bottom-right {
-  from {
-    background-position-x: 100%;
-    background-position-y: 50%; }
+  from { }
   to {
     background-position-x: 100%;
     background-position-y: 100%; } }
 
 @keyframes animate-to-bottom-right {
-  from {
-    background-position-x: 100%;
-    background-position-y: 50%; }
+  from { }
   to {
     background-position-x: 100%;
     background-position-y: 100%; } }

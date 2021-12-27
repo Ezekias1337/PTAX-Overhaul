@@ -1,10 +1,10 @@
 [data-animation-name="animate-to-top-left"] {
   -webkit-animation-name: animate-to-top-left;
-          animation-name: animate-to-top-left;
+  animation-name: animate-to-top-left;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -13,8 +13,6 @@
 
 @-webkit-keyframes animate-to-top-left {
   from {
-    background-position-x: 100%;
-    background-position-y: 100%;
   }
   to {
     background-position-x: 0%;
@@ -24,8 +22,6 @@
 
 @keyframes animate-to-top-left {
   from {
-    background-position-x: 100%;
-    background-position-y: 100%;
   }
   to {
     background-position-x: 0%;
@@ -35,11 +31,11 @@
 
 [data-animation-name="animate-to-top-center"] {
   -webkit-animation-name: animate-to-top-center;
-          animation-name: animate-to-top-center;
+  animation-name: animate-to-top-center;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -48,8 +44,6 @@
 
 @-webkit-keyframes animate-to-top-center {
   from {
-    background-position-x: 50%;
-    background-position-y: 50%;
   }
   to {
     background-position-x: 50%;
@@ -59,8 +53,6 @@
 
 @keyframes animate-to-top-center {
   from {
-    background-position-x: 50%;
-    background-position-y: 50%;
   }
   to {
     background-position-x: 50%;
@@ -70,11 +62,11 @@
 
 [data-animation-name="animate-to-top-right"] {
   -webkit-animation-name: animate-to-top-right;
-          animation-name: animate-to-top-right;
+  animation-name: animate-to-top-right;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -83,8 +75,6 @@
 
 @-webkit-keyframes animate-to-top-right {
   from {
-    background-position-x: 50%;
-    background-position-y: 0%;
   }
   to {
     background-position-x: 100%;
@@ -94,8 +84,6 @@
 
 @keyframes animate-to-top-right {
   from {
-    background-position-x: 50%;
-    background-position-y: 0%;
   }
   to {
     background-position-x: 100%;
@@ -103,14 +91,13 @@
   }
 }
 
-
 [data-animation-name="animate-to-center-left"] {
   -webkit-animation-name: animate-to-center-left;
-          animation-name: animate-to-center-left;
+  animation-name: animate-to-center-left;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -119,8 +106,6 @@
 
 @-webkit-keyframes animate-to-center-left {
   from {
-    background-position-x: 0%;
-    background-position-y: 0%;
   }
   to {
     background-position-x: 0%;
@@ -130,8 +115,6 @@
 
 @keyframes animate-to-center-left {
   from {
-    background-position-x: 0%;
-    background-position-y: 0%;
   }
   to {
     background-position-x: 0%;
@@ -141,11 +124,11 @@
 
 [data-animation-name="animate-to-center-center"] {
   -webkit-animation-name: animate-to-center-center;
-          animation-name: animate-to-center-center;
+  animation-name: animate-to-center-center;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -154,8 +137,6 @@
 
 @-webkit-keyframes animate-to-center-center {
   from {
-    background-position-x: 50%;
-    background-position-y: 100%;
   }
   to {
     background-position-x: 50%;
@@ -165,8 +146,6 @@
 
 @keyframes animate-to-center-center {
   from {
-    background-position-x: 50%;
-    background-position-y: 100%;
   }
   to {
     background-position-x: 50%;
@@ -176,11 +155,11 @@
 
 [data-animation-name="animate-to-center-right"] {
   -webkit-animation-name: animate-to-center-right;
-          animation-name: animate-to-center-right;
+  animation-name: animate-to-center-right;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -189,8 +168,6 @@
 
 @-webkit-keyframes animate-to-center-right {
   from {
-    background-position-x: 100%;
-    background-position-y: 0%;
   }
   to {
     background-position-x: 100%;
@@ -200,8 +177,6 @@
 
 @keyframes animate-to-center-right {
   from {
-    background-position-x: 100%;
-    background-position-y: 0%;
   }
   to {
     background-position-x: 100%;
@@ -209,14 +184,13 @@
   }
 }
 
-
 [data-animation-name="animate-to-bottom-left"] {
   -webkit-animation-name: animate-to-bottom-left;
-          animation-name: animate-to-bottom-left;
+  animation-name: animate-to-bottom-left;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -225,8 +199,6 @@
 
 @-webkit-keyframes animate-to-bottom-left {
   from {
-    background-position-x: 0%;
-    background-position-y: 50%;
   }
   to {
     background-position-x: 0%;
@@ -236,8 +208,6 @@
 
 @keyframes animate-to-bottom-left {
   from {
-    background-position-x: 0%;
-    background-position-y: 50%;
   }
   to {
     background-position-x: 0%;
@@ -247,11 +217,11 @@
 
 [data-animation-name="animate-to-bottom-center"] {
   -webkit-animation-name: animate-to-bottom-center;
-          animation-name: animate-to-bottom-center;
+  animation-name: animate-to-bottom-center;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -260,8 +230,6 @@
 
 @-webkit-keyframes animate-to-bottom-center {
   from {
-    background-position-x: 0%;
-    background-position-y: 100%;
   }
   to {
     background-position-x: 50%;
@@ -271,8 +239,6 @@
 
 @keyframes animate-to-bottom-center {
   from {
-    background-position-x: 0%;
-    background-position-y: 100%;
   }
   to {
     background-position-x: 50%;
@@ -282,11 +248,11 @@
 
 [data-animation-name="animate-to-bottom-right"] {
   -webkit-animation-name: animate-to-bottom-right;
-          animation-name: animate-to-bottom-right;
+  animation-name: animate-to-bottom-right;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   animation-direction: forwards;
   -webkit-animation-direction: forwards;
   animation-fill-mode: forwards;
@@ -295,8 +261,6 @@
 
 @-webkit-keyframes animate-to-bottom-right {
   from {
-    background-position-x: 100%;
-    background-position-y: 50%;
   }
   to {
     background-position-x: 100%;
@@ -306,8 +270,6 @@
 
 @keyframes animate-to-bottom-right {
   from {
-    background-position-x: 100%;
-    background-position-y: 50%;
   }
   to {
     background-position-x: 100%;

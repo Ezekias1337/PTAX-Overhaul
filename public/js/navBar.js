@@ -87,83 +87,40 @@ const generateNavBarBackgroundRandom = () => {
 generateNavBarBackgroundRandom();
 
 const causeNavbarToAnimate = () => {
-    const navbar = document.getElementById("navbar");
-    const numberToDetermineBGPlacement = getRandomArbitrary(1, 72);
-  
-    if (navbar.dataset.animationName === "animate-to-top-left") {
-      navbar.dataset.animationName = "animate-to-center-left";
-      window.setTimeout(setCenterLeft, 4999);
-    } else if (
-      navbar.dataset.animationName === "animate-to-center-left"
-    ) {
-      navbar.dataset.animationName = "animate-to-bottom-left";
-      window.setTimeout(setBottomLeft, 4999);
-    } else if (
-      navbar.dataset.animationName === "animate-to-bottom-left"
-    ) {
-      navbar.dataset.animationName = "animate-to-bottom-center";
-      window.setTimeout(setBottomCenter, 4999);
-    } else if (
-      navbar.dataset.animationName === "animate-to-bottom-center"
-    ) {
-      navbar.dataset.animationName = "animate-to-center-center";
-      window.setTimeout(setCenterCenter, 4999);
-    } else if (
-      navbar.dataset.animationName === "animate-to-center-center"
-    ) {
-      navbar.dataset.animationName = "animate-to-top-center";
-      window.setTimeout(setTopCenter, 4999);
-    } else if (
-      navbar.dataset.animationName === "animate-to-top-center"
-    ) {
-      navbar.dataset.animationName = "animate-to-top-right";
-      window.setTimeout(setTopRight, 4999);
-    } else if (navbar.dataset.animationName === "animate-to-top-right") {
-      navbar.dataset.animationName = "animate-to-center-right";
-      window.setTimeout(setCenterRight, 4999);
-    } else if (
-      navbar.dataset.animationName === "animate-to-center-right"
-    ) {
-      navbar.dataset.animationName = "animate-to-bottom-right";
-      window.setTimeout(setBottomRight, 4999);
-    } else if (
-      navbar.dataset.animationName === "animate-to-bottom-right"
-    ) {
-      navbar.dataset.animationName = "animate-to-top-left";
-      window.setTimeout(setTopLeft, 4999);
-    } else {
-      if (numberToDetermineBGPlacement <= 8) {
-        navbar.dataset.animationName = "animate-to-top-left";
-        window.setTimeout(setTopLeft, 4999);
-      } else if (numberToDetermineBGPlacement <= 16) {
-        navbar.dataset.animationName = "animate-to-top-center";
-        window.setTimeout(setTopCenter, 4999);
-      } else if (numberToDetermineBGPlacement <= 24) {
-        navbar.dataset.animationName = "animate-to-top-right";
-        window.setTimeout(setTopRight, 4999);
-      } else if (numberToDetermineBGPlacement <= 32) {
-        navbar.dataset.animationName = "animate-to-center-left";
-        window.setTimeout(setCenterLeft, 4999);
-      } else if (numberToDetermineBGPlacement <= 40) {
-        navbar.dataset.animationName = "animate-to-center-center";
-        window.setTimeout(setCenterCenter, 4999);
-      } else if (numberToDetermineBGPlacement <= 48) {
-        navbar.dataset.animationName = "animate-to-center-right";
-        window.setTimeout(setCenterRight, 4999);
-      } else if (numberToDetermineBGPlacement <= 56) {
-        navbar.dataset.animationName = "animate-to-bottom-left";
-        window.setTimeout(setBottomLeft, 4999);
-      } else if (numberToDetermineBGPlacement <= 64) {
-        navbar.dataset.animationName = "animate-to-bottom-center";
-        window.setTimeout(setBottomCenter, 4999);
-      } else if (numberToDetermineBGPlacement <= 72) {
-        navbar.dataset.animationName = "animate-to-bottom-right";
-        window.setTimeout(setBottomRight, 4999);
-      }
-    }
-  };
-  
-  setInterval(causeNavbarToAnimate, 5500);
+  const navbar = document.getElementById("navbar");
+  const numberToDetermineBGPlacement = getRandomArbitrary(1, 72);
+
+  if (numberToDetermineBGPlacement <= 8) {
+    navbar.dataset.animationName = "animate-to-top-left";
+    window.setTimeout(setTopLeft, 4999);
+  } else if (numberToDetermineBGPlacement <= 16) {
+    navbar.dataset.animationName = "animate-to-top-center";
+    window.setTimeout(setTopCenter, 4999);
+  } else if (numberToDetermineBGPlacement <= 24) {
+    navbar.dataset.animationName = "animate-to-top-right";
+    window.setTimeout(setTopRight, 4999);
+  } else if (numberToDetermineBGPlacement <= 32) {
+    navbar.dataset.animationName = "animate-to-center-left";
+    window.setTimeout(setCenterLeft, 4999);
+  } else if (numberToDetermineBGPlacement <= 40) {
+    navbar.dataset.animationName = "animate-to-center-center";
+    window.setTimeout(setCenterCenter, 4999);
+  } else if (numberToDetermineBGPlacement <= 48) {
+    navbar.dataset.animationName = "animate-to-center-right";
+    window.setTimeout(setCenterRight, 4999);
+  } else if (numberToDetermineBGPlacement <= 56) {
+    navbar.dataset.animationName = "animate-to-bottom-left";
+    window.setTimeout(setBottomLeft, 4999);
+  } else if (numberToDetermineBGPlacement <= 64) {
+    navbar.dataset.animationName = "animate-to-bottom-center";
+    window.setTimeout(setBottomCenter, 4999);
+  } else if (numberToDetermineBGPlacement <= 72) {
+    navbar.dataset.animationName = "animate-to-bottom-right";
+    window.setTimeout(setBottomRight, 4999);
+  }
+};
+
+setInterval(causeNavbarToAnimate, 5500);
 
 for (const item of arrayOfNavbarDropdownElements) {
   item.addEventListener("mouseenter", () => {
@@ -195,12 +152,14 @@ for (const item of arrayOfNavbarDropdownElements) {
 
 // Now need to handle nested dropdowns
 
-const handlePTaxReportGeneratorMouseEnter = (() => {
+const handlePTaxReportGeneratorMouseEnter = () => {
   const arrayOfULChildren = document.getElementById("reportGenerator").children;
-  console.log(arrayOfULChildren)
+  console.log(arrayOfULChildren);
   for (const item of arrayOfULChildren) {
     item.style.display = "";
   }
-})
+};
 
-document.getElementById("reportGeneratorTrigger").addEventListener("mouseenter", handlePTaxReportGeneratorMouseEnter)
+document
+  .getElementById("reportGeneratorTrigger")
+  .addEventListener("mouseenter", handlePTaxReportGeneratorMouseEnter);

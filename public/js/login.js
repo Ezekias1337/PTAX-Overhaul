@@ -86,76 +86,33 @@ const causeLogInToAnimate = () => {
   const loginBackGround = document.getElementsByClassName("login-body")[0];
   const numberToDetermineBGPlacement = getRandomArbitrary(1, 72);
 
-  if (loginBackGround.dataset.animationName === "animate-to-top-left") {
-    loginBackGround.dataset.animationName = "animate-to-center-left";
-    window.setTimeout(setCenterLeft, 4999);
-  } else if (
-    loginBackGround.dataset.animationName === "animate-to-center-left"
-  ) {
-    loginBackGround.dataset.animationName = "animate-to-bottom-left";
-    window.setTimeout(setBottomLeft, 4999);
-  } else if (
-    loginBackGround.dataset.animationName === "animate-to-bottom-left"
-  ) {
-    loginBackGround.dataset.animationName = "animate-to-bottom-center";
-    window.setTimeout(setBottomCenter, 4999);
-  } else if (
-    loginBackGround.dataset.animationName === "animate-to-bottom-center"
-  ) {
-    loginBackGround.dataset.animationName = "animate-to-center-center";
-    window.setTimeout(setCenterCenter, 4999);
-  } else if (
-    loginBackGround.dataset.animationName === "animate-to-center-center"
-  ) {
-    loginBackGround.dataset.animationName = "animate-to-top-center";
-    window.setTimeout(setTopCenter, 4999);
-  } else if (
-    loginBackGround.dataset.animationName === "animate-to-top-center"
-  ) {
-    loginBackGround.dataset.animationName = "animate-to-top-right";
-    window.setTimeout(setTopRight, 4999);
-  } else if (loginBackGround.dataset.animationName === "animate-to-top-right") {
-    loginBackGround.dataset.animationName = "animate-to-center-right";
-    window.setTimeout(setCenterRight, 4999);
-  } else if (
-    loginBackGround.dataset.animationName === "animate-to-center-right"
-  ) {
-    loginBackGround.dataset.animationName = "animate-to-bottom-right";
-    window.setTimeout(setBottomRight, 4999);
-  } else if (
-    loginBackGround.dataset.animationName === "animate-to-bottom-right"
-  ) {
+  if (numberToDetermineBGPlacement <= 8) {
     loginBackGround.dataset.animationName = "animate-to-top-left";
     window.setTimeout(setTopLeft, 4999);
-  } else {
-    if (numberToDetermineBGPlacement <= 8) {
-      loginBackGround.dataset.animationName = "animate-to-top-left";
-      window.setTimeout(setTopLeft, 4999);
-    } else if (numberToDetermineBGPlacement <= 16) {
-      loginBackGround.dataset.animationName = "animate-to-top-center";
-      window.setTimeout(setTopCenter, 4999);
-    } else if (numberToDetermineBGPlacement <= 24) {
-      loginBackGround.dataset.animationName = "animate-to-top-right";
-      window.setTimeout(setTopRight, 4999);
-    } else if (numberToDetermineBGPlacement <= 32) {
-      loginBackGround.dataset.animationName = "animate-to-center-left";
-      window.setTimeout(setCenterLeft, 4999);
-    } else if (numberToDetermineBGPlacement <= 40) {
-      loginBackGround.dataset.animationName = "animate-to-center-center";
-      window.setTimeout(setCenterCenter, 4999);
-    } else if (numberToDetermineBGPlacement <= 48) {
-      loginBackGround.dataset.animationName = "animate-to-center-right";
-      window.setTimeout(setCenterRight, 4999);
-    } else if (numberToDetermineBGPlacement <= 56) {
-      loginBackGround.dataset.animationName = "animate-to-bottom-left";
-      window.setTimeout(setBottomLeft, 4999);
-    } else if (numberToDetermineBGPlacement <= 64) {
-      loginBackGround.dataset.animationName = "animate-to-bottom-center";
-      window.setTimeout(setBottomCenter, 4999);
-    } else if (numberToDetermineBGPlacement <= 72) {
-      loginBackGround.dataset.animationName = "animate-to-bottom-right";
-      window.setTimeout(setBottomRight, 4999);
-    }
+  } else if (numberToDetermineBGPlacement <= 16) {
+    loginBackGround.dataset.animationName = "animate-to-top-center";
+    window.setTimeout(setTopCenter, 4999);
+  } else if (numberToDetermineBGPlacement <= 24) {
+    loginBackGround.dataset.animationName = "animate-to-top-right";
+    window.setTimeout(setTopRight, 4999);
+  } else if (numberToDetermineBGPlacement <= 32) {
+    loginBackGround.dataset.animationName = "animate-to-center-left";
+    window.setTimeout(setCenterLeft, 4999);
+  } else if (numberToDetermineBGPlacement <= 40) {
+    loginBackGround.dataset.animationName = "animate-to-center-center";
+    window.setTimeout(setCenterCenter, 4999);
+  } else if (numberToDetermineBGPlacement <= 48) {
+    loginBackGround.dataset.animationName = "animate-to-center-right";
+    window.setTimeout(setCenterRight, 4999);
+  } else if (numberToDetermineBGPlacement <= 56) {
+    loginBackGround.dataset.animationName = "animate-to-bottom-left";
+    window.setTimeout(setBottomLeft, 4999);
+  } else if (numberToDetermineBGPlacement <= 64) {
+    loginBackGround.dataset.animationName = "animate-to-bottom-center";
+    window.setTimeout(setBottomCenter, 4999);
+  } else if (numberToDetermineBGPlacement <= 72) {
+    loginBackGround.dataset.animationName = "animate-to-bottom-right";
+    window.setTimeout(setBottomRight, 4999);
   }
 };
 
