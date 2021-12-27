@@ -152,6 +152,13 @@ for (const item of arrayOfNavbarDropdownElements) {
 
 // Now need to handle nested dropdowns
 
+/* 
+
+IDEA:
+  USE EVENT.CURRENT TARGET TO CHECK FOR MOUSE LEAVE
+  
+*/
+
 const handlePTaxReportGeneratorMouseEnter = () => {
   const arrayOfULChildren = document.getElementById("reportGenerator").children;
   console.log(arrayOfULChildren);
